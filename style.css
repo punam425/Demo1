@@ -1,0 +1,137 @@
+*
+{
+		margin:0;
+		padding: 0;
+		font-family: Century Gothics;
+}
+header
+{
+	background-image:url(photobg.jpg);
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+}
+ul
+{
+		float: right;
+		list-style-type: none;
+		margin-top: 25px;
+}
+ul li
+{
+	display: inline-block;
+}
+ul li a
+{
+	text-decoration: none;
+	color:#fff;
+	padding: 5px 20px;
+	border:1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover
+{
+	background-color: #fff;
+	color:black;
+}
+ul li.active a{
+	background-color: 
+}
+.logo img
+{
+	margin-top: 10px;
+	margin-left:0; 
+	float: left;
+	width: 120px;
+	height: auto;
+}
+.main
+{
+	max-width: 1200px;
+	margin:auto;
+}
+.footer-wrapper
+{
+	width :1100px;
+	margin: 0auto;
+
+}
+.single-footer
+{
+	width: 20%;
+	margin-left: 40px;
+	height: 40%;
+	float: left;
+	text-align: inherit;
+	color:#f2f2f2;
+}
+footer 
+{
+	background: #303036;
+	color: #d3d3d3;
+	height: 300px;
+	width: 1400px;
+	position: relative;
+}
+.footer-bottom{
+	background: $343a40;
+	color:#686868;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 20px;
+}
+.social-media
+{
+	float: right;
+	color: #555555;
+	border-radius:25px;
+	word-spacing: 30px;
+}
+#fa-facebook{
+	border-radius: 30px;
+	background-color: #555555;
+	word-spacing: 30px;
+	font-size: 30px;
+		line-height: 60px;
+		transition: 6%;
+		color: #000;
+}
+#fa-twitter
+{
+	border-radius: 30px;
+	background-color: #555555;
+}
+#fa-youtube
+{
+	border-radius: 30px;
+	background-color: #555555;
+}
+#fa-rss
+{
+	border-radius: 30px;
+	background-color: #555555;
+}
+.social-media ul{
+		position: absolute;
+		display: block;
+		width:60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: white;
+		text-align: center;
+		transition: .6%;
+		box-shadow: 0 5px 4px rgba(0,0,0,.5);
+	}
+	.social-media ul :hover{
+		transform:translate(0, -10px);
+	}
+	
+
+
+
+
+
